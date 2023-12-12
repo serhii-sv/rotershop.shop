@@ -1,0 +1,369 @@
+.card-synthetic-info {
+  padding: 1.1818181818181819em 1.2727272727272727em;
+  background: var(--cards-bg, #1d1d1d);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-synthetic-info-active {
+  padding: 1.1818181818181819em 1.2727272727272727em;
+  background-color: #d3f56a;
+  position: relative;
+}
+
+.card-synthetic-bg{
+  position: absolute;
+  z-index: 0;
+  right: -20px;
+  width: 50%;
+}
+.name-card {
+  margin-left: 0.9em;
+  color: #bbb;
+}
+
+.name-active,
+.name-card {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.name-active {
+  color: var(--cards-bg, #1d1d1d);
+}
+
+.card-price-active,
+.card-price {
+  margin-top: 1.89999rem;
+  font-size: 1.7272727272727273rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-price-active {
+  color: var(--cards-bg, #1d1d1d);
+}
+
+.card-price {
+  color: #fff;
+}
+
+.box-precent {
+  margin-top: 0.7486363636363635em;
+}
+
+.card-precent-active,
+.card-precent,
+.card-precent-reduce {
+  margin-left: 0.5227em;
+  font-size: 0.81rem;
+}
+
+.card-precent {
+  color: #d3f56a;
+}
+
+.card-precent-active {
+  color: #607916;
+}
+
+.card-precent-reduce {
+  color: #da5538;
+}
+
+.ic-precent-active {
+  margin-right: 0.5227em;
+  stroke: #607916;
+}
+
+.ic-precent {
+  margin-right: 0.5227em;
+  stroke: #d3f56a;
+}
+
+.card-view-active,
+.card-view {
+  margin-left: 1rem;
+  font-size: 0.81rem;
+}
+
+.card-view {
+  color: #7d7d7d;
+}
+
+.card-view-active {
+  color: #607916;
+}
+
+.card-synthetic:first-child {
+  border-radius: 0.45454545454545453rem 0px 0px 0.45454545454545453rem;
+  overflow: hidden;
+}
+
+.card-synthetic:last-child {
+  border-radius: 0px 0.45454545454545453rem 0.45454545454545453rem 0px;
+  overflow: hidden;
+}
+
+.upgrade {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.3636363636363635em;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.upgrade-title {
+  color: #fff6f6;
+  font-size: 1.0909090909090908rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6818181818181819rem;
+  padding-bottom: 0.8636363636363636em;
+}
+
+.btn-upgrade {
+  width: 100%;
+  padding: 0.8181818181818182rem 0;
+  border: none;
+  background-color: #d3f56a;
+  border-radius: 0.45454545454545453rem;
+  color: var(--cards-bg, #1d1d1d);
+  font-size: 0.9090909090909091rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6818181818181819em; /* 185% */
+}
+
+.box-top-product{
+    padding: 1.3636363636363635rem;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 10px;
+    background-color: #1D1D1D;
+}
+
+.top-product-title{
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.32;
+}
+
+.top-product-search{
+    height: 2rem;
+}
+
+.top-product-input-search, .input-group-text{
+    height: 2rem;
+    background-color: transparent;
+    
+}
+
+.select-time{
+  border-radius: 10px;
+}
+
+.title-table{
+  margin-left: 8px;
+  margin-top: 15px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+/* chart-sale */
+.chart-sale,.chart-line{
+  background-color: #1D1D1D;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.chart-sale {
+  padding-top: 14px;
+}
+
+.color-swatches {
+  span { display: inline-block; width: 20px; height: 20px; }
+  display: none;
+  display: block;
+}
+
+#doughnut-chart-email-swatches {
+  span._0  { background-color: #3a6d7a; }
+  span._0h { background-color: lighten(#3a6d7a, 10); }
+  span._1  { background-color: #9bbc5b; }
+  span._1h { background-color: lighten(#9bbc5b, 10); }
+}
+
+#bar-chart-email-swatches {
+  span._0  { background-color: #59BAFF; }
+  span._0h { background-color: lighten(#59BAFF, 10); }
+}
+
+.content-section {
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+/* Change the color of x-axis labels on hover */
+.apexcharts-inner:hover .apexcharts-xaxis-label text {
+  fill: #ff0000 !important; /* Change this to your desired hover color */
+}
+/* Apply hover color to x-axis on hover */
+.apexcharts-container:hover .apexcharts-xaxis-label {
+  fill: #f00; /* Hover color */
+}
+
+#center-text {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-weight: bold;
+  color: #FFF;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.more-chart{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  color: #FFF6F6;
+font-family: Inter;
+font-size: 0.9rem;
+gap: 10px;
+display: flex;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+}
+
+.more-chart > svg {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+
+.brick {
+  width: 31.6666%;
+  min-width: 302px;
+  margin: 0;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  display: inline-block;
+  border: 1px solid darken(#fff, 6);
+  background: #fafaf2;
+  background: darken(#fff, 3);
+  &:nth-child(3) {
+  	margin-right: 0;
+  }
+  padding: 25px;
+  
+  
+  h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 60px;
+    em {
+      display:block;
+      font-size: 10px;
+    }
+    margin: 0;
+  }
+}
+
+
+
+.brick-chart {
+  .chart {
+      margin: 0 auto;
+      padding: 0;
+      width: 250px;
+      height: 250px;
+    }
+    canvas {
+      width: 250px !important;
+      height: 250px !important;
+    }
+  .legend {
+    width: 250px !important;
+    margin: 0 auto;
+    padding: 10px 0;
+    min-height: 80px;
+    .entry {
+      margin: 5px;
+      line-height: 12px;
+      font-size: 12px;
+      .swatch {
+        display: block;
+        float: left;
+        width: 12px;
+        height: 12px;
+        content: "";
+        margin: 0px 10px 0 0;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .upgrade {
+    padding: 25px 28px;
+  }
+
+  .select-time{
+    margin-top: 8px;
+    padding: 13px 16px;
+    border-radius: 10px;
+  }
+  
+
+  .upgrade-title{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+  }
+
+  .btn-upgrade {
+    margin-top: 65px;
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+  }
+
+  #center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-weight: bold;
+    color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .select-time{
+    margin-top: 8px;
+  }
+
+  .box_search_product{
+    margin-top: 24px;
+  }
+}

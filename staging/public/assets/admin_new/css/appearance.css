@@ -1,0 +1,258 @@
+.line-row {
+  width: 100%;
+  height: 1px;
+  background-color: #303030;
+  margin: 0.9090909090909091rem 0px 1.3636363636363635rem 0px;
+}
+
+.box-banner {
+  width: 100%;
+  height: 11.818181818181818rem;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.show-img-banner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.box-banner_choose {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.box-banner_title,
+.box-banner_desc {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.1363636363636365rem;
+}
+
+.box-banner_title {
+  color: var(--OFC---White, #fff);
+  font-family: Inter;
+  font-size: 1.7272727272727273rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.52px;
+}
+
+.box-banner_desc {
+  color: #f0efef;
+  text-align: center;
+  font-size: 0.8181818181818182rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.box-choose-avt {
+  position: absolute;
+  left: 1.8181818181818181rem;
+  z-index: 1;
+  bottom: -38%;
+}
+
+.btn-choose-file-avt {
+  position: absolute;
+  top: 3px;
+  right: 17px;
+  padding: 5px 5px 8px 8px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: var(--Accent, #d3f56a);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+}
+
+.switch-toggle {
+  color: #f1416c;
+  font-size: 0.7272727272727273rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2px;
+}
+
+.switch-toggle-checked {
+  color: #50cd89;
+  display: none;
+  font-size: 0.7272727272727273rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2px;
+}
+
+.form-check-input:checked ~ .switch-toggle-checked {
+  display: inline;
+}
+
+.form-check-input:checked ~ .switch-toggle {
+  display: none;
+}
+
+.title-check {
+  color: var(--OFC---font-light, var(--grey-for-inactive, #7d7d7d));
+  font-size: 0.8181818181818182rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.45454545454545453rem;
+}
+
+.btn_add {
+  border-radius: 10px;
+  background: var(--Accent, #d3f56a);
+  padding: 0.45454545454545453rem 0.7272727272727273rem;
+  border: none;
+  height: fit-content;
+}
+
+.line-dash {
+  border-bottom: 1px dashed #303030;
+  width: 100%;
+  margin: 1.3636363636363635rem 0px;
+}
+
+.btn-white {
+  background-color: #fff !important;
+}
+
+
+.input-form-ticker{
+    height: 52px !important;
+}
+
+.avt-ticker{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  overflow: hidden;
+}
+
+#review-avt{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-choose-file-avt-pc{
+  z-index: 1;
+  top: unset;
+  bottom: 18px;
+  right: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .switch-toggle,
+  .switch-toggle-checked {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .form-switch {
+    padding-left: 2.5em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.title-check{
+    color: var(--grey-for-inactive, #7D7D7D);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+}
+
+.btn_add{
+    padding: 16px;
+}
+
+.box-banner{
+    height: 236px;
+}
+
+.avt-ticker{
+    height: 80px !important;
+    width: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+.box-choose-avt{
+    bottom: -15%;
+}
+
+.btn-choose-file-avt > svg{
+    width: 12px;
+    height: 12px;
+}
+
+.btn-choose-file-avt{
+    padding: 3px 4px 3px 5px;
+    border-radius: 3px;
+    right: 7px;
+}
+
+.btn-choose-file-avt-mobile{
+    top: 18px;
+    right: 18px;
+    z-index: 1;
+}
+
+.box-banner{
+    background-size: auto;
+}
+
+#canvas-select > div {
+  padding: 10px;
+  color: var(--OFC---White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.canvass-select-item-active{
+  background-color: #222;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+}
+
+/*choose-file-banner  */
+/* btn-choose-file-banner */
+
+/* choose-file-avt */
+
+/* btn-choose-file-avt */
+
+/* box-show-img-banner */

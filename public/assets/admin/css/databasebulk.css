@@ -1,0 +1,187 @@
+.btn-seek{
+border-radius: 10px;
+background: rgba(211, 245, 106, 0.10);
+border: none;
+color: var(--OFC---Green, var(--Accent, #D3F56A));
+padding: 0.45454545454545453rem 0.9090909090909091rem;
+font-size: 0.9090909090909091rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.input-ic-p{
+    height: 2.272727272727273rem;
+}
+
+.ic-search > * {
+    stroke: #BBBBBB !important;
+}
+
+.box-table{
+    border-radius: 10px;
+    border: 1px solid var(--OFC---stoke, #303030);
+    background: var(--Cards_bg, #1D1D1D);
+    padding: 0px 0.9090909090909091rem;
+}
+
+.table > :not(caption) > * > td {
+    padding-bottom: 1.7272727272727273rem !important;
+}
+
+.tab-btn-left{
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    color: #7D7D7D;
+    border: 1px solid #303030 !important;
+
+}
+
+.tab-btn-right{
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color: #7D7D7D;
+    border: 1px solid #303030 !important;
+}
+
+.tab-btn-left:hover,
+.tab-btn-right:hover {
+    color: unset !important;
+}
+
+.form-check-input{
+    width: 1.0909090909090908rem;
+    height: 1.0909090909090908rem;
+}
+
+
+.form-check label {
+    color: var(--OFC---White, #FFF);
+font-size: 0.9090909090909091rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#box-separator{
+    display: none;
+}
+
+.form-select {
+    height: 2.272727272727273rem;
+}
+
+.title-import{
+    color: var(--OFC---White, #FFF);
+    font-family: Inter;
+    font-size: 1.2727272727272727rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.12px;
+    margin-bottom: 1.3636363636363635em;
+}
+
+.btn-ip{
+    margin-top: 15px !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .title-import{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.4px;
+    }
+    .btn-seek{
+        width: 100%;
+        padding: 12px 24px;
+font-size: 16px;
+    }
+
+    .tab-btn-left,
+    .tab-btn-right{
+        width: 50%;
+        padding: 12px 24px;
+    }
+
+    textarea.form-control {
+        height: 96px !important;
+    }
+
+    .form-check > label {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }
+
+    .form-check {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-check-input{
+        width: 16px;
+height: 16px;
+    }
+
+    .chart_database{
+        height: 400px !important;
+    }
+}
+
+/* custom chart */
+.apexcharts-minor-grid .apexcharts-yaxis-annotations circle,
+.apexcharts-minor-grid .apexcharts-xaxis-annotations circle {
+    display: none !important;
+}
+
+.chart_database{
+    border: 1px solid var(--OFC---stoke, #303030);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#chart {
+    overflow: hidden;
+    position: absolute;
+    /* top: 0px; */
+    left: -22px;
+    right: -22px;
+    bottom: -30px;
+    /* margin: -10px !important; */
+}
+
+/* .apexcharts-canvas > svg > g {
+    transform: translate(0, 0) !important;
+} */
+
+.chart_database_info{
+    padding: 5px 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--OFC---Green, var(--Accent, #D3F56A));
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: rgba(211, 245, 106, 0.10);
+border-radius: 40px;
+}
+
+
+
+
+  
+  
+  
+  

@@ -1,0 +1,101 @@
+.input-select,
+.input-select-ic {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: transparent !important;
+}
+
+.input-select-ic {
+  padding-left: 50px;
+  color: #f7b118 !important;
+}
+
+.btn-request-transfer {
+  border: 1px solid var(--Accent, #d3f56a);
+  background-color: transparent;
+  padding: 10px 24px;
+  border-radius: 10px;
+  color: var(--Accent, #d3f56a);
+  font-size: 0.9090909090909091rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-box-transaction{
+    padding-bottom: 0.7727272727272727rem;
+    border-bottom: 2px solid #303030;
+}
+
+.unit-table {
+  color: #bbb;
+  margin-left: 3px;
+}
+
+.status-payout-cancelled {
+  color: #da5538;
+}
+
+.chart-line{
+  background-color: #1D1D1D;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.apexcharts-xaxis-label, .apexcharts-yaxis-label {
+  fill: #7D7D7D;
+}
+
+.request-transfer {
+  height: 100%;
+}
+
+.select-input > option{
+  background-color: blue;
+}
+.select-input{
+    height: 100% !important;
+    border: none;
+}
+@media only screen and (max-width: 768px) {
+    .input-select{
+        /* padding: 0px;
+        width: 100%; */
+    }
+.select-input{
+    height: 100% !important;
+    border: none;
+}
+
+.table {
+    margin: 20px 0px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.table:last-child{
+    border-bottom: none;
+    margin-bottom: 0px !important;
+}
+
+.title-box-transaction{
+    border-bottom: none;
+}
+
+.request-transfer{
+    padding: 16px !important;
+}
+
+.btn-request-transfer{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 24px !important;
+}
+
+.state-paid,
+.state-invalid,
+.state-pending {
+  font-size: 12px;
+  padding: 8px 24px;
+
+}
+}

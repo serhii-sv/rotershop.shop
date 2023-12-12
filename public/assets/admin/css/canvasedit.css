@@ -1,0 +1,208 @@
+.canvas-edit {
+  width: 50% ;
+  padding: 1.8181818181818181rem 1.1363636363636365rem;
+  background-color: #151515;
+}
+
+.canvas-header {
+  padding: 0px;
+}
+
+.btn-close-canvas {
+  width: 1.3636363636363635rem;
+  height: 1.3636363636363635rem;
+  cursor: pointer;
+  margin-right: 0.45454545454545453rem;
+}
+
+.name-canvas {
+  color: var(--OFC---White, #fff);
+  font-family: Inter;
+  font-size: 1.0909090909090908rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.desc-canvas {
+  color: var(--OFC---font-light, var(--grey-for-inactive, #7d7d7d));
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.36363636363636365rem;
+}
+
+.box-statistical {
+  gap: 3.1818181818181817rem;
+}
+
+.body-canvas {
+  margin-top: 2.727272727272727rem;
+}
+
+.statistical-icon-canvas {
+  width: 1.6363636363636365rem;
+  height: 1.6363636363636365rem;
+  margin-right: 0.45454545454545453rem;
+}
+
+.title-statistical {
+  color: #bbb;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.8636363636363636rem;
+  margin-top: 0.22727272727272727rem;
+}
+
+.statistical-data {
+  color: #fff;
+  font-size: 1.0909090909090908rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* table edit */
+
+.table-edit {
+  margin-top: 2.727272727272727rem;
+}
+
+.box-line {
+  height: 1px;
+  background-color: #303030;
+  margin-top: 1.0909090909090908rem;
+}
+
+.title-form {
+  color: #fff;
+  font-size: 1.0909090909090908rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2.272727272727273rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  .canvas-edit {
+    width: 100% !important;
+    padding: 1.8181818181818181rem 1.1363636363636365rem;
+    background-color: #151515;
+  }
+
+  .name-canvas {
+    color: var(--OFC---White, #fff);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+  }
+
+  .desc-canvas {
+    color: var(--grey-for-inactive, #7d7d7d);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+  }
+
+  .btn-go-to-shop > a {
+    color: #172c00;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .box-statistical > div {
+    width: 33.3333%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .statistical-icon-canvas {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .title-statistical,
+  .statistical-data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-statistical{
+    color: var(--grey-for-inactive, #7D7D7D);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  }
+
+  .statistical-data {
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .box-statistical-icon-canvas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-bottom: 16px;
+  }
+
+  .title-table-box{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.4px;
+  }
+
+  .form-control{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+}

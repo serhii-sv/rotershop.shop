@@ -1,0 +1,114 @@
+.input-search-ticket{
+    width: 500px;
+}
+
+.box-line{
+    width: 100%;
+    height: 1px;
+    background-color: #303030;
+    margin-top: 10px;
+}
+
+/* custom select contry */
+/* .select-contry{
+    width: auto;
+}
+
+.country-select.inside input, .country-select.inside input[type=text]{
+    background-color: #303030;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7272727272727273em 16px 0.7272727272727273em 0.7272727272727273em !important;
+    color: #FFF;
+    width: 148px;
+}
+
+.country-select .selected-flag .arrow{
+    display: none;
+}
+.country-select .flag.us {
+    height: 17px !important;
+    width: 17px !important;
+    background-position: -5244px 3px !important;
+    border-radius: 10px !important;
+}
+.country-select.inside input, .country-select.inside input[type=text] {
+    padding-right: 6px;
+    padding-left: 32px !important;
+    margin-left: 0;
+} */
+
+.modal-header {
+    border-bottom: unset;
+    padding: 0px;
+}
+
+.btn-close-modal{
+    background-color: #303030;
+    color: #fff !important;
+}
+
+.select-contry{
+    border-radius: 10px;
+background: #303030;
+padding: 10px;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-add-mobile{
+        width: auto !important;
+        height: auto !important;
+        padding: 16px 18px !important;
+        margin-top: unset;
+    }
+
+    .value-table-mb{
+        width: 100% !important;
+        margin-bottom: 8px;
+    }
+
+    .row-table{
+        flex-wrap: wrap;
+    }
+
+    .table-mobile{
+        border-radius: 10px;
+        margin-top: 24px;
+        padding: 16px 16px 0px 16px;
+        border: 1px solid #303030;
+    }
+
+    .btn-load-more{
+        margin-top: 24px !important;
+        margin-bottom: 10px;
+    }
+
+    .btn-close-modal{
+        width: 100%;
+    }
+
+    .modal-dialog{
+        margin: 0% !important;
+    }
+
+    .modal-title{
+        color: var(--OFC---White, #FFF);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+    }
+
+    .modal-content{
+        position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-clip: unset;
+    border-radius: 0;
+    background-color: #151515 !important;
+    }
+}

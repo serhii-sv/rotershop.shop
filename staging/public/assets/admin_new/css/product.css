@@ -1,0 +1,60 @@
+.btn-dark {
+  background-color: #303030;
+}
+
+.canvas-edit{
+    width: 35% !important;
+}
+
+.btn-dark > a {
+  color: #7d7d7d !important;
+}
+
+.custom-choose-file {
+  border-radius: 0.45454545454545453rem;
+  border: 2px dashed rgba(211, 245, 106, 0.2);
+  background: rgba(211, 245, 106, 0.05);
+}
+
+.ic-choose{
+    width: 1.2727272727272727rem;
+    height: 1.2727272727272727rem;
+}
+
+.text-white {
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.8181818181818182rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.text-green{
+    color: #D3F56A;
+font-family: Inter;
+font-size: 0.8181818181818182rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 3px;
+}
+
+.text-desc{
+    color: var(--grey-for-inactive, #7D7D7D);
+font-family: Inter;
+font-size: 0.6363636363636364rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.form-check-label{
+    color: #FFF;
+font-family: Inter;
+font-size: 0.9090909090909091rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
